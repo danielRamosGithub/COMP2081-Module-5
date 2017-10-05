@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Collapse | Bootstrap</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/custom.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1 class="display-3">Collapse | Bootstrap</h1>
+				<p class="lead">Follow along as we build an Accordion widget, using the Bootstrap Collapse and Card components.</p>
+			</header>
+			<main>
+				<div id="accordion" role="tablist">
+					<section class="card">
+						<header class="card-header" role="tab" id="headingOne" data-target="#collapseOne" data-toggle="collapse">
+							<h2 class="mb-0" aria-expanded="true" aria-controls="#collapseOne">Heading 1</h2>
+						</header>
+						<div class="collapse show" role="tabpanel" id="collapseOne" data-parent="#accordion" aria-labelledby="headingOne">
+							<div class="card-body">
+								<p>Cras sed suscipit nisi. Aenean commodo nunc eget tortor auctor bibendum. Ut posuere arcu velit, vel tincidunt lectus sagittis et. Pellentesque gravida luctus pharetra. In felis neque, feugiat at lacus eget, faucibus iaculis velit. Nullam tristique, justo eget blandit finibus, dui justo aliquam ligula, sit amet iaculis quam lectus sed ex. Sed ac mi ut ante mollis tristique. In sed nisl quis est sollicitudin varius non et velit. Sed turpis nunc, varius vitae iaculis ut, viverra eget neque.</p>
+							</div> <!-- End div .card-body --> 
+						</div> <!-- End div .collapse -->
+					</section>
+					<section class="card">
+						<header class="card-header" role="tab" id="headingTwo" data-target="#collapseTwo" data-toggle="collapse">
+							<h2 class="mb-0" aria-expanded="false" aria-controls="#collapseTwo">Heading 2</h2>
+						</header>
+						<div class="collapse" role="tabpanel" id="collapseTwo" data-parent="#accordion" aria-labelledby="headingTwo">
+							<div class="card-body">
+								<p>Morbi vel ipsum id dolor rutrum lacinia. Praesent ullamcorper vulputate libero a vestibulum. Cras mollis mollis magna, ut mattis lacus convallis vel. Praesent accumsan, odio quis varius suscipit, nulla ante tincidunt nisl, non interdum quam eros nec nibh. Nulla eget dapibus metus, ac ultricies purus. Vestibulum et tristique felis. Nulla tempor, libero quis gravida suscipit, quam felis tempus metus, eu congue lectus orci a leo. Phasellus tincidunt nibh vel dolor vehicula viverra vitae ut metus. In faucibus nulla metus, eget bibendum ex condimentum a. Morbi vel lobortis lacus, vitae malesuada sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse non velit lacus. Ut finibus pretium tellus, in aliquet purus sodales ut. Phasellus in nisi felis. Suspendisse at laoreet nunc. Vestibulum cursus at ex ut pharetra.</p>
+							</div> <!-- End div .card-body -->
+						</div> <!-- End div .collapse -->
+					</section>
+					<section class="card">
+						<header class="card-header" role="tab" id="headingThree" data-target="#collapseThree" data-toggle="collapse">
+							<h2 class="mb-0" aria-expanded="false" aria-controls="#collapseThree">Heading 3</h2>
+						</header>
+						<div class="collapse" role="tabpanel" id="collapseThree" data-parent="#accordion" aria-labelledby="headingThree">
+							<div class="card-body">
+								<p>Mauris in orci ac neque suscipit vestibulum vitae id leo. Etiam sem massa, semper id est euismod, sodales malesuada quam. Mauris placerat libero nibh, non interdum purus porttitor in. Donec eget justo nisi. In libero erat, iaculis in libero sed, eleifend varius lectus. Curabitur euismod metus condimentum, pellentesque nunc non, luctus dolor. Nam condimentum nec nisi ac pretium. Vivamus et ex a risus lacinia facilisis. Sed non odio lacus. Etiam consequat felis massa, tristique semper neque elementum sed. Vestibulum a lectus metus.</p>
+							</div> <!-- End div .card-body -->
+						</div> <!-- End div .collapse -->
+					</section>
+					<section class="card">
+						<header class="card-header" role="tab" id="headingFour" data-target="#collapseFour" data-toggle="collapse">
+							<h2 class="mb-0" aria-expanded="false" aria-controls="#collapseFour">Heading 4</h2>
+						</header>
+						<div class="collapse" role="tabpanel" id="collapseFour" data-parent="#accordion" aria-labelledby="headingFour">
+							<div class="card-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et pellentesque ipsum. Etiam fermentum lectus leo, ut venenatis purus dapibus porta. Nam condimentum ullamcorper lacus, id feugiat nisi aliquet eget. Integer a tellus sed nulla suscipit molestie non ornare elit. Nullam fringilla vulputate turpis ut dictum. Curabitur eleifend, enim nec viverra auctor, ante libero sagittis diam, a consequat magna magna id lorem. Praesent id velit eu tortor blandit euismod. Aenean ac cursus tortor. Nam sit amet mauris aliquam, congue odio a, iaculis justo. Morbi vulputate interdum mollis. Aliquam eu gravida elit. Morbi efficitur dapibus est in dictum.</p>	
+								<p>Nunc consequat tincidunt tortor eget feugiat. Sed laoreet sapien a tortor efficitur pellentesque. Ut vehicula lorem et sapien ornare, sed euismod lectus vehicula. Integer mauris magna, fermentum id nisl at, hendrerit efficitur erat. Curabitur sem felis, faucibus nec imperdiet non, egestas eu nisi. Sed scelerisque interdum pellentesque. Pellentesque a ligula mattis, venenatis dui vitae, malesuada diam.</p>
+							</div> <!-- End div .card-body -->
+						</div> <!-- End div .collapse -->
+					</section>
+				</div> <!-- End div #accordion -->
+			</main>
+			<footer>
+				<p><small>Learn more about the <a href="https://getbootstrap.com/docs/4.0/components/collapse/" title="View the Bootstrap documentation for the Collapse Component">Collapse Component</a>.</small></p>
+			</footer>
+		</div> <!-- End div .container -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	</body>
+</html>

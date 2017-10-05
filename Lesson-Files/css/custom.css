@@ -1,0 +1,6 @@
+/* Custom CSS */
+/* STEP 15: Remove the underline from the links, and extend the anchor all the way across the card header for better usability */
+.card-header a {
+    text-decoration: none;
+    display: block;
+}
